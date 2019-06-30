@@ -1,4 +1,4 @@
-	 package com.test;
+	// package com.test;
 	 import java.io.*;
 	 import java.sql.*;
 	 import java.util.*;
@@ -20,7 +20,8 @@
 		     String pass="1234";
 		try
 		{   //System.out.println("ooooookkkkkkkkkk");
-		    Class.forName("com.mysql.cj.jdbc.Driver");
+		    //System.out.println("oks");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 		    Connection con=DriverManager.getConnection(url,uname,pass);
 		    st=con.createStatement();
 		    //st1=con.createStatement();
